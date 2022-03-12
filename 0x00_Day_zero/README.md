@@ -1,8 +1,7 @@
 | Task | File name | Description |
 | --- | --- | --- |
 | Task 0. | reverse.py | This python script reverses alphabetic characters only in a string leaving out special characters. |
-| Task 1. | listmock.py | Consider a list (list = []). You can perform the following commands:
-    insert i e: Insert integer  at position.
+| Task 1. | listmock.py | Consider a list (list = []). You can perform the following commands: <br>  -insert i e: Insert integer  at position. <br> 
     print: Print the list.
     remove e: Delete the first occurrence of integer.
     append e: Insert integer  at the end of the list.
