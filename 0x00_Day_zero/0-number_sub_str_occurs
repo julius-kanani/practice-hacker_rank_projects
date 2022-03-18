@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+
+def count_substring(string, sub_string):
+	# keep tab of the no of occurrences of the sub_str
+	count = 0
+	length = len(sub_string)
+
+	for index, char in enumerate(string):
+		if char == sub_string[0]:
+		last_pos = index + length
+
+		# create new sub_str and compare with current sub_str
+		new_str = string[index:last_pos]
+		if (new_str == sub_string):
+			count += 1
+	return count
